@@ -1,7 +1,7 @@
-from prommms import *
-from promopen import *
-from promclose import *
-from readcsv import *
+from prommms import prommms
+from promopen import promopen
+from promclose import promclose
+from readcsv import readcsv
 def main():
     excel = Readcsv()
     pc = promclose()

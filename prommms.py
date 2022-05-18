@@ -1,4 +1,4 @@
-from strategy import *
+from strategy import Strategy
 
 class prommms(Strategy):
     def __init__(self):
