@@ -7,12 +7,12 @@ def main():
     pc = promclose()
     po = promopen()
     pmm = prommms()
-    excel.setStrategy(pc)
-    print(excel.doSomething())
+    excel.set_Strategy(pc)
+    print(excel.do_Something())
     excel.setStrategy(po)
-    print(excel.doSomething())
+    print(excel.do_Something())
     excel.setStrategy(pmm)
-    print(excel.doSomething())
+    print(excel.do_Something())
 
 if __name__ == '__main__':
     main()
