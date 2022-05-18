@@ -1,7 +1,7 @@
 from prommms import prommms
 from promopen import promopen
 from promclose import promclose
-from readcsv import readcsv
+from readcsv import Readcsv
 def main():
     excel = Readcsv()
     pc = promclose()
@@ -9,9 +9,9 @@ def main():
     pmm = prommms()
     excel.set_strategy(pc)
     print(excel.do_something())
-    excel.setStrategy(po)
+    excel.set_strategy(po)
     print(excel.do_something())
-    excel.setStrategy(pmm)
+    excel.set_strategy(pmm)
     print(excel.do_something())
 
 if __name__ == '__main__':

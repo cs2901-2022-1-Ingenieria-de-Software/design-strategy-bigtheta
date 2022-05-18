@@ -1,8 +1,8 @@
-import pandas 
+from pandas import read_csv
 
 class Readcsv:
     def __init__(self):
-        self.df = pandas.read_csv('gold.csv')
+        self.df = read_csv('gold.csv')
     def set_strategy(self,strategy):
         self.strategy = strategy
     def do_something(self):
